@@ -1,0 +1,130 @@
+@mixin outlined-hover-btn($color) {
+  & {
+    transition: var(--btn-transition) !important;
+    color: $color;
+  }
+
+  &:hover {
+    background-color: $color;
+  }
+}
+
+.custom-rounded {
+  border-radius: var(--custom-border-radius) !important;
+}
+
+.custom-rounded-new {
+  border-radius: var(--custom-border-radius-new) !important;
+}
+
+.custom-rounded-secondary {
+  border: 2px solid var(--secondary);
+  border-radius: var(--custom-border-radius-new) !important;
+}
+
+.custom-rounded-45 {
+  border-radius: var(--custom-border-radius-45) !important;
+}
+
+.custom-shadow {
+  box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.1) !important;
+}
+
+.light-shadow {
+  box-shadow: 0 0 20px 5px rgba(175, 175, 175, 0.2) !important;
+}
+
+.white-shadow {
+  box-shadow: 0 0 20px 5px rgb(233, 226, 226) !important;
+}
+
+.secondary-outlined-btn {
+  @include outlined-hover-btn(var(--secondary));
+}
+
+.primary-outlined-btn {
+  @include outlined-hover-btn(var(--primary));
+}
+
+.success-outlined-btn {
+  @include outlined-hover-btn(var(--success));
+}
+
+.custom-gradient {
+  background-image: linear-gradient(var(--success), #03d59a) !important;
+
+  &_gray {
+    background-image: linear-gradient(var(--gray), #b6b6b6) !important;
+  }
+
+  &_takhmin {
+    background-image: linear-gradient(to top right,
+        var(--purpleFirst),
+        var(--purpleSecond)) !important;
+  }
+}
+
+.btn-gradient {
+  background-image: linear-gradient(#d4d4d4, #bababa) !important;
+
+  &_forward {
+    background-image: linear-gradient(#00d998, #00bd85) !important;
+  }
+
+  &_discount {
+    background-image: linear-gradient(to right, #e39c28, #fff400) !important;
+  }
+
+  &_exclusive {
+    background-image: linear-gradient(#7520f4, #4d03ca) !important;
+  }
+
+  &_slider {
+    background-image: linear-gradient(#b8b08c, #472b47) !important;
+  }
+}
+
+.custom-margin-top {
+  margin-top: -170px;
+}
+
+.gradientLogin {
+  font-size: large;
+  font-weight: bold;
+
+  &_forward {
+    background-image: linear-gradient(#00d998, #00bd85) !important;
+  }
+}
+
+.position-relative {
+  position: relative !important;
+}
+
+.version-div {
+  position: absolute;
+  bottom: 1rem;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottom-btn-style {
+  position: absolute !important;
+  width: 85%;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 10px;
+}
+
+.max-width {
+  max-width: var(--global-max-width);
+  margin: 0 auto;
+}
+
+.custom-border-class {
+  border-top-left-radius: 1.2rem !important;
+  border-top-right-radius: 1.2rem !important;
+}

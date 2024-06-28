@@ -1,0 +1,104 @@
+.flex {
+  @for $flex from 0 through 10 {
+    &-#{$flex} {
+      flex: $flex !important;
+    }
+  }
+
+  &-center {
+    align-items: center;
+    justify-content: center;
+  }
+
+  &-g0 {
+    flex-grow: 0 !important;
+  }
+
+  &-s0 {
+    flex-shrink: 0 !important;
+  }
+}
+
+.gap {
+  $base-size: 4px;
+
+  @for $size from 0 through 10 {
+    &-#{$size} {
+      gap: $size * $base-size;
+    }
+
+    &-column-#{$size} {
+      column-gap: $size * $base-size;
+    }
+
+    &-row-#{$size} {
+      row-gap: $size * $base-size;
+    }
+  }
+}
+
+.expand {
+  height: 100%;
+  width: 100%;
+
+  &-width {
+    width: 100%;
+  }
+
+  &-height {
+    height: 100%;
+  }
+
+  &-viewport {
+    height: 100vh;
+    width: 100vw;
+
+    &-width {
+      width: 100vw;
+    }
+
+    &-min-width {
+      min-width: 100vw;
+    }
+
+    &-height {
+      height: 100vh;
+    }
+
+    &-min-height {
+      min-height: 100vh;
+    }
+  }
+}
+
+.z {
+  @for $index from 0 through 20 {
+    &-#{$index} {
+      z-index: $index !important;
+    }
+  }
+
+  &-100 {
+    z-index: 100 !important;
+  }
+}
+
+.position-relative {
+  position: relative;
+}
+
+.justify-space-evenly {
+  justify-content: space-evenly;
+}
+
+.height-fit-content {
+  height: fit-content;
+}
+
+.with-transition {
+  transition: var(--btn-transition);
+}
+
+.overflow-visible {
+  overflow: visible;
+}

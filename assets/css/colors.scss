@@ -1,0 +1,176 @@
+:root {
+  --primary: #BE9813;
+  --blue: #8cabff;
+  --primary-rgb: 147, 40, 215;
+  --secondary: #b8b08c;
+  --light-secondary: #B0A893;
+  --dark-secondary: #908D85;
+  --icon-btn: #CABF9F;
+  --dark-gray: #7c9d96;
+  --light-gray: #eeeeee;
+  --green: #00ff80;
+  --dark-green: #4B945B;
+  --secondary-rgb: 97, 5, 254;
+  --secondary-disabled: #ecfbfc;
+  --gray: #94a4a4;
+  --medium-gray: #DEDCDD;
+  --dark-gray: #5E5539;
+  --background: #F7F6F3;
+  --red: #931818;
+  --tertiary: #300178;
+  --tertiary-rgb: 48, 1, 120;
+  --navy-blue: #4a08b4;
+  --success: #02ab69;
+  --success-rgb: 159, 184, 120;
+  --light-red: #FFE1E1;
+
+  --dark-cream: #D5B177;
+  --light-cream: #F3DFC1;
+  --slime-green: #484C1A;
+  --light-purple: #786178;
+  --nescafe-color: #ba9a66;
+  --light-orange: #f3dfc1;
+  --sky-blue: #0099ff;
+  --input-color: #e0e0e0;
+  --goldy-brown: #DABA4B;
+  --dark-goldy-brown: #BE9813;
+  --light-goldy-brown: #CABF9F;
+  --brown: #9D7034;
+  --light-brown: #AAA390;
+  --intro-dark-gray: #424038;
+  --text-100: #a6a6a6;
+  --text-100-rgb: 166, 166, 166;
+  --text-200: #919191;
+  --text-300: #828282;
+  --text-400: #7b7b7b;
+  --text-500: #474747;
+  --text-600: #3a3a3a;
+  --text-700: #2c2c2c;
+  --text-800: #222222;
+  --text-900: #000000;
+  --bg-button: #F1F0EC;
+}
+
+///////////////////////////} TEXT COLORS ////////////////////////////////
+///
+///
+
+.dark-gray-bg {
+  background-color: var(--dark-gray);
+}
+
+.primary-text {
+  color: var(--primary);
+}
+
+.primary-bg {
+  background-color: var(--primary);
+}
+
+.red-text {
+  color: var(--red);
+}
+
+.red-bg {
+  background-color: var(--red);
+}
+
+.green-text {
+  color: var(--green);
+}
+
+.text-100 {
+  color: var(--text-100);
+}
+
+.text-200 {
+  color: var(--text-200);
+}
+
+.text-500 {
+  color: var(--text-500);
+}
+
+.text-100-bg {
+  background-color: var(--text-100);
+}
+
+.text-500-bg {
+  background-color: var(--text-500);
+}
+
+.text-900 {
+  color: var(--text-900);
+}
+
+.secondary-bg {
+  background: var(--secondary);
+}
+
+.secondary-text {
+  color: var(--secondary);
+}
+
+.navy-blue-text {
+  color: var(--navy-blue);
+}
+
+.success-text {
+  color: var(--success);
+}
+
+.success-bg {
+  background-color: var(--success);
+}
+
+.disable-text {
+  color: var(--disable);
+}
+
+.disable-bg {
+  background-color: rgb(var(--disable));
+}
+
+.gray-text {
+  color: var(--gray);
+}
+
+.gray-bg {
+  background-color: var(--gray);
+}
+
+.black-text {
+  color: black;
+}
+
+.white-bg {
+  background-color: #ffffff;
+}
+
+.red-text {
+  color: red;
+}
+
+.nescafe-bg {
+  background-color: var(--nescafe-color);
+}
+
+.nescafe-color {
+  color: var(--nescafe-color);
+}
+
+.input-bg {
+  background-color: var(--input-color);
+}
+
+.intro-dark-gray {
+  color: var(--intro-dark-gray);
+}
+
+.light-secondary-text {
+  color: var(--light-secondary);
+}
+
+.light-gray-bg {
+  background-color: #E8E8E8;
+}

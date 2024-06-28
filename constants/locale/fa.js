@@ -1,0 +1,20 @@
+export default {
+  // navItems
+  getProject: "پروژه ها",
+  education: "آموزش ها",
+  courses: "دوره ها",
+  panel: "پنل کاربری",
+  aboutUs: "درباره ما",
+  profile: "پروفایل",
+  projectRegistration: "ثبت پروژه جدید",
+  courseRegistration: "ثبت دوره جدید",
+  project: "پروژه ها",
+  setting: "تنظیمات",
+  activities: "فعالیت‌های من",
+  archive: "آرشیو",
+  notifications: "اطلاعیه‌ها",
+  orders: "سفارشات و رزروها",
+  packages: "پکیج ها",
+  services: "خدمات",
+  pricing: "تعرفه ها",
+};
